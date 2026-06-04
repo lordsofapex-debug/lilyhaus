@@ -68,7 +68,31 @@ body{
 /* =========================================================
    LUXURY GRAIN
 ========================================================= */
+.contact-direct{
+  margin-top:40px;
+  text-align:center;
+}
 
+.contact-direct a{
+  font-family:'Cormorant Garamond', serif;
+
+  font-size:clamp(28px, 4vw, 56px);
+
+  color:var(--text);
+
+  text-decoration:none;
+
+  border-bottom:1px solid rgba(216,183,192,0.35);
+
+  transition:
+    opacity 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.contact-direct a:hover{
+  opacity:0.7;
+  border-color:var(--accent);
+}
 body::before{
   content:"";
 
@@ -78,7 +102,31 @@ body::before{
   pointer-events:none;
 
   opacity:0.025;
+.contact-direct{
+  margin-top:40px;
+  text-align:center;
+}
 
+.contact-direct a{
+  font-family:'Cormorant Garamond', serif;
+
+  font-size:clamp(28px, 4vw, 56px);
+
+  color:var(--text);
+
+  text-decoration:none;
+
+  border-bottom:1px solid rgba(216,183,192,0.35);
+
+  transition:
+    opacity 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.contact-direct a:hover{
+  opacity:0.7;
+  border-color:var(--accent);
+}
   background-image:url('grain.png');
 
   z-index:1;
@@ -1081,28 +1129,22 @@ footer{
   }
 }
 
-.contact-direct{
-  margin-top:40px;
-  text-align:center;
-}
-
 .contact-direct a{
   font-family:'Cormorant Garamond', serif;
 
-  font-size:clamp(28px, 4vw, 56px);
+  font-size:clamp(42px, 5vw, 72px);
+
+  font-weight:500;
 
   color:var(--text);
 
   text-decoration:none;
 
-  border-bottom:1px solid rgba(216,183,192,0.35);
+  letter-spacing:0.02em;
 
-  transition:
-    opacity 0.3s ease,
-    border-color 0.3s ease;
+  transition:opacity 0.3s ease;
 }
 
 .contact-direct a:hover{
   opacity:0.7;
-  border-color:var(--accent);
 }
