@@ -1129,7 +1129,16 @@ footer{
   }
 }
 
+
+
+.contact-direct{
+  margin-top:70px;
+  text-align:center;
+}
+
 .contact-direct a{
+  display:inline-block;
+
   font-family:'Cormorant Garamond', serif;
 
   font-size:clamp(42px, 5vw, 72px);
